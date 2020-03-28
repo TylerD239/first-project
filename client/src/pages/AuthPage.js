@@ -37,6 +37,7 @@ export const AuthPage = () => {
 		} catch (e) {}
 	}
 
+	console.log("ПРИЁМ!!!")
 
 	return (
 		<div className="row">
