@@ -41,7 +41,7 @@ export const AuthPage = () => {
 	return (
 		<div className="row">
 			<div className="col s6 offset-s3">
-				<h1>Сократи ссылку</h1>
+				<h1>qwe</h1>
 				 <div className="card red darken-1">
 			        <div className="card-content white-text">
 			        	<span className="card-title">Авторизация</span>
