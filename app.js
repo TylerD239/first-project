@@ -5,6 +5,8 @@ const path = require('path')
 
 const app = express()
 
+console.log("PRIEM!!!!")//&&&&&&&&&&&&
+
 app.use(express.json({extended:true}))
 
 app.use('/api/auth', require('./routes/auth.routes'))
