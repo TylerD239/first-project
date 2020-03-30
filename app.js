@@ -9,9 +9,9 @@ app.use(express.json({extended:true}))
 
 //test
 
-app.use('/test', function (req, res) {
-  console.log('Request Type:', req.method);
-})
+// app.use('/test', function (req, res) {
+//   console.log('Request Type:', req.method);
+// })
 
 app.use('/api/auth', require('./routes/auth.routes'))
 app.use('/api/link', require('./routes/link.routes'))
