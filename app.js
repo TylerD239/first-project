@@ -18,10 +18,10 @@ app.use('/test', function (req, res) {
   console.log('Request Type:', req.method);
   const temp = Math.floor(Math.random() * Math.floor(45));
 
-  res.send({weather: 'good', temp})
+  res.send({weather: 'ясно', temp})
 })
 
-
+//test
 
 app.use('/api/auth', require('./routes/auth.routes'))
 app.use('/api/link', require('./routes/link.routes'))
