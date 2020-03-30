@@ -16,7 +16,9 @@ app.use(function(req, res, next) {
 
 app.use('/test', function (req, res) {
   console.log('Request Type:', req.method);
-  res.send({weather: 'good'})
+  const temp = Math.floor(Math.random() * Math.floor(45));
+
+  res.send({weather: 'good', temp})
 })
 
 
