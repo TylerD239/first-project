@@ -15,7 +15,7 @@ app.use(function(req, res, next) {
 });
 
 
-router.get('/test', function(req, res, next) {
+app.use('/test', function(req, res, next) {
 
 
  const getWeather = async () => {
